@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
 //Створити колекцію авто яка буде посортивана за роком випуску
         ArrayList<Car> cars = new ArrayList<>(Arrays.asList(
@@ -49,13 +49,13 @@ public class main {
                 cars1.add(car);
             }
         }
-        CarCollect belove2000 = new CarCollect(cars1);
+        CarCollect below2000 = new CarCollect(cars1);
         System.out.println("before sort");
-        belove2000.logCars();
+        below2000.logCars();
 
-        belove2000.getCollection().sort(new YearIncrement());
+        below2000.getCollection().sort(new YearIncrement());
         System.out.println("after sort");
-        belove2000.logCars();
+        below2000.logCars();
 
 //Всі автівки, старіше 2000 року скопіювати в коллекцію ,
 //яка буде посортована по року та спаданню

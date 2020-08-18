@@ -3,7 +3,7 @@ package Classwork2.part1;
 import javax.swing.text.html.HTMLDocument;
 import java.util.*;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
 //        Зробити список з 10 чисел [2,17,13,6,22,31,45,66,100,-18]та:
         ArrayList<Integer> arr = new ArrayList<>();

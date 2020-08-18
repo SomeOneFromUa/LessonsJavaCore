@@ -2,7 +2,7 @@ package Classwork2.part2;
 
 import java.util.ArrayList;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         //Створити пустий список та :
         ArrayList<Integer> arr = new ArrayList<>();
@@ -46,6 +46,7 @@ public class main {
         System.out.println(arr);
 
         // диапазон рандома от -999 до 999.
+
         // 2. Вывести на консоль  каждый третий елемент
 //        for (int i = 0; i < arr.size(); i+=3) {
 //            if (i == 0) continue;

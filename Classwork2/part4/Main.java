@@ -4,7 +4,7 @@ import homework2.part1.Pat;
 
 import java.util.*;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
 //Створити клас Зооклуб. В цьому класі створити одне поле: private Map <Person, List <Pet>> club;
 // В мейн методі створити меню, яке буде реалізовувати наступні функції:

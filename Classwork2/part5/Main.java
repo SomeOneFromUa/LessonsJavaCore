@@ -72,5 +72,11 @@ public class Main {
         System.out.println("after sort");
         above2000.getCollection().sort(new YearDecrement());
         above2000.logCars();
+
+//        "Склеїти " ці дві коллекції  в одну
+        above2000.getCollection().addAll(below2000.getCollection());
+        above2000.logCars();
+        above2000.getCollection().sort(new YearDecrement());
+        above2000.logCars();
     }
 }

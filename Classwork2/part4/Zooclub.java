@@ -48,7 +48,7 @@ public class Zooclub {
         this.club = club;
     }
 
-    public Map<Person, ArrayList<Pet>> getClub() {
+    public HashMap<Person, ArrayList<Pet>> getClub() {
         return club;
     }
 

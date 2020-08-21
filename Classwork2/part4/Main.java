@@ -43,6 +43,6 @@ public class Main {
         zooclub.removePet(pet1);
 //        zooclub.log();
 //6) вивести на екран зооклуб.
-        zooclub.log();
+//        zooclub.log();
     }
 }

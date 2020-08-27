@@ -37,6 +37,8 @@ public class Main {
 //        System.out.println(strings1); //[one, qqq, qqq] однакові додає
 //        strings1.remove("qqq");
 //        System.out.println(strings1); // [one, qqq] видаляє перше входження
+
+
         //list users
         List<User> users = new ArrayList<>();
         users.add(new User(1, "Rue"));

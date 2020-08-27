@@ -1,8 +1,8 @@
-package lesson4.Set;
+package lesson5.part1;
 
 import java.util.Objects;
 
-public class User implements Comparable<User> {
+public class User {
     private int id;
     private String name;
     private boolean status;
@@ -41,15 +41,6 @@ public class User implements Comparable<User> {
     }
 
     @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", status=" + status +
-                '}';
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -65,11 +56,11 @@ public class User implements Comparable<User> {
     }
 
     @Override
-    public int compareTo(User user) {
-        int result = this.id - user.id;
-        if (result == 0) {
-          return this.name.compareTo(user.name);
-      }
-        return result;
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", status=" + status +
+                '}';
     }
 }

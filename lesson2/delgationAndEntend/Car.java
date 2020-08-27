@@ -48,7 +48,11 @@ public class Car {
     }
 
     //делегація
+//    public void start() {
+//        this.engine.start();
+//    }
+
     public void start() {
-        this.engine.start();
+        engine.start();
     }
 }

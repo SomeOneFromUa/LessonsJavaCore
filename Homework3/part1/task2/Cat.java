@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class Cat extends Pet {
     private ArrayList<String> favoriteFood;
-
     public Cat() {
     }
 

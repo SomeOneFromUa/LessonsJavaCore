@@ -11,4 +11,8 @@ System.out.println(a + b);
     static void multiple(int a, int b) {
       System.out.println(a*b);
     }
+    default void print() {
+      System.out.println("fadf");
+    }
+
 }

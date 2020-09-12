@@ -1,4 +1,4 @@
-package lesson5.part2;
+package lesson5.interfaceAdvance;
 
 public class Main {
     public static void main(String[] args) {

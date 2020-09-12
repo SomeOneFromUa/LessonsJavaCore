@@ -1,4 +1,4 @@
-package lesson5.part2;
+package lesson5.interfaceAdvance;
 
 public interface Calc {
 //    Цей метод буде необхідно імплементувати

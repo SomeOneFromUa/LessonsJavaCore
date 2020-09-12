@@ -3,7 +3,7 @@ package lesson2.AgregCompose;
 public class main {
     public static void main(String[] args) {
         //заповнення вложеності
-        // три варіка варіка
+        // три варіка
         //1-- заздалегіть (обєкт компанії може бути викорстаний багато раз але забивається додатково память)
         // якщо потрібен додатковий ссилочний тип який буде використано далі
         company company = new company("name", "catch", "ss");

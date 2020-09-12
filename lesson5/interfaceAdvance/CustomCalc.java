@@ -1,4 +1,4 @@
-package lesson5.part2;
+package lesson5.interfaceAdvance;
 
 public class CustomCalc implements Calc {
     private int a;

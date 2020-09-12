@@ -1,4 +1,4 @@
-package lesson5.part1;
+package lesson5.streams;
 
 import java.util.Objects;
 
